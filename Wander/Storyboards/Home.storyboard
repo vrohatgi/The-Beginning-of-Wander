@@ -67,7 +67,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8gZ-k4-J2b" id="DfE-Qv-naE">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -90,7 +90,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVp-f1-Gha">
-                                <rect key="frame" x="51" y="145" width="24" height="22"/>
+                                <rect key="frame" x="55" y="145" width="20" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="btn_tent"/>
                                 <connections>
@@ -246,7 +246,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="btn_tent" width="16" height="16"/>
+        <image name="btn_tent" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="S6U-nq-Kof"/>
