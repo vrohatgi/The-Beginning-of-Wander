@@ -26,28 +26,28 @@
                                 <rect key="frame" x="322" y="213" width="38" height="30"/>
                                 <state key="normal" title="Parks"/>
                                 <connections>
-                                    <segue destination="yZK-eJ-a36" kind="show" identifier="Parks" id="Uyl-72-Pab"/>
+                                    <segue destination="yZK-eJ-a36" kind="show" identifier="parks" id="Uyl-72-Pab"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vnc-sF-RUa">
                                 <rect key="frame" x="164" y="213" width="38" height="30"/>
                                 <state key="normal" title="Pools"/>
                                 <connections>
-                                    <segue destination="yZK-eJ-a36" kind="show" identifier="Pools" id="6Ye-WN-lYh"/>
+                                    <segue destination="yZK-eJ-a36" kind="show" identifier="pools" id="6Ye-WN-lYh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rR-K6-sOp">
                                 <rect key="frame" x="15" y="136" width="97" height="30"/>
                                 <state key="normal" title="Campgrounds"/>
                                 <connections>
-                                    <segue destination="yZK-eJ-a36" kind="show" identifier="Campgrounds" id="iPE-oj-djz"/>
+                                    <segue destination="yZK-eJ-a36" kind="show" identifier="campgrounds" id="iPE-oj-djz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9a-KN-MLx">
                                 <rect key="frame" x="164" y="136" width="40" height="30"/>
                                 <state key="normal" title="Lakes"/>
                                 <connections>
-                                    <segue destination="yZK-eJ-a36" kind="show" identifier="Lakes" id="ZVb-0N-IEX"/>
+                                    <segue destination="yZK-eJ-a36" kind="show" identifier="lakes" id="ZVb-0N-IEX"/>
                                 </connections>
                             </button>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="mbB-eO-Ji8">
@@ -62,7 +62,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8gZ-k4-J2b" id="DfE-Qv-naE">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -72,14 +72,14 @@
                                 <rect key="frame" x="323" y="136" width="37" height="30"/>
                                 <state key="normal" title="Trails"/>
                                 <connections>
-                                    <segue destination="yZK-eJ-a36" kind="show" identifier="Trails" id="ueV-W8-88z"/>
+                                    <segue destination="yZK-eJ-a36" kind="show" identifier="trails" id="ueV-W8-88z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Zz-Yg-5IQ">
                                 <rect key="frame" x="16" y="213" width="59" height="30"/>
                                 <state key="normal" title="Beaches"/>
                                 <connections>
-                                    <segue destination="yZK-eJ-a36" kind="show" id="S6U-nq-Kof"/>
+                                    <segue destination="yZK-eJ-a36" kind="show" identifier="beaches" id="S6U-nq-Kof"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -160,7 +160,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uK5-Id-kuY" id="iBb-0l-hZ6">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9g-hK-tCF">
@@ -262,6 +262,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Uyl-72-Pab"/>
+        <segue reference="S6U-nq-Kof"/>
     </inferredMetricsTieBreakers>
 </document>

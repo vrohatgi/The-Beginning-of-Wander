@@ -22,4 +22,37 @@ class HomeViewController: UIViewController {
         // we'll add code later
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let identifier = segue.identifier {
+            if identifier == "pools" {
+                print("Pools button tapped")
+            }
+        }
+            if let identifier = segue.identifier {
+            if identifier == "beaches" {
+                print("Beaches button tapped")
+            }
+        }
+            if let identifier = segue.identifier {
+            if identifier == "trails" {
+                print("Trails button tapped")
+            }
+        }
+            if let identifier = segue.identifier {
+            if identifier == "campgrounds" {
+                print("Campgrounds button tapped")
+            }
+        }
+            if let identifier = segue.identifier {
+            if identifier == "lakes" {
+                print("Lakes button tapped")
+            }
+        }
+            if let identifier = segue.identifier {
+            if identifier == "parks" {
+                print("Parks button tapped")
+            }
+        }
+    }
 }
