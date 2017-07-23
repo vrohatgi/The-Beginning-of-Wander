@@ -38,7 +38,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rR-K6-sOp">
-                                <rect key="frame" x="15" y="187" width="97" height="30"/>
+                                <rect key="frame" x="16" y="175" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Campgrounds"/>
                                 <connections>
@@ -89,10 +89,14 @@
                                     <segue destination="yZK-eJ-a36" kind="show" identifier="beaches" id="S6U-nq-Kof"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3hc-56-4Qw">
-                                <rect key="frame" x="16" y="115" width="167" height="76"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVp-f1-Gha">
+                                <rect key="frame" x="51" y="145" width="24" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Button" image="btn_tent"/>
+                                <connections>
+                                    <segue destination="yZK-eJ-a36" kind="show" id="8fB-Wc-ctd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -140,7 +144,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uK5-Id-kuY" id="iBb-0l-hZ6">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f9g-hK-tCF">
@@ -241,6 +245,9 @@
             <point key="canvasLocation" x="188" y="179.46026986506749"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="btn_tent" width="16" height="16"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="S6U-nq-Kof"/>
     </inferredMetricsTieBreakers>
